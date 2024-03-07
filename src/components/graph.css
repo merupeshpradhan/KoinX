@@ -1,0 +1,35 @@
+
+.charts {
+    padding: 15px;
+    height: 60vh;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+.charts-top h5 span{
+    font-size: 13px;
+    color: #00000054;
+}
+.charts-top h5{
+    font-size: 20px;
+}
+.charts-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.charts-top img {
+  width: 25px;
+  height: 25px;
+}
+.rank{
+    background-color: #0000008a;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+.amount p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}

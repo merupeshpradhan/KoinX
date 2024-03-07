@@ -1,0 +1,38 @@
+.about {
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+.contents{
+    padding-top: 10px;
+}
+hr {
+    margin: 1rem 0;
+    opacity: .2;
+}
+.cardz{
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    background: linear-gradient(45deg,cyan,blue);
+    border-radius: 5px;
+    height: 120px;
+}
+#cardz_2{
+    background: linear-gradient(45deg,rgb(255, 136, 0),rgb(255, 52, 52));
+}
+.card_img{
+    width: 50%;
+}
+.card_img img{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+}
+.card_content{
+    padding:0 20px;
+    margin: auto;
+    color: white;
+    text-align: left;
+}

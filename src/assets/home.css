@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.left-container{
+    min-height: 100vh;
+    /* width: 70vw; */
+    padding: 20px 0;
+}
+.right-container{
+    height: 100vh;
+}

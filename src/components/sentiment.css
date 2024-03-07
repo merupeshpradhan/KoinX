@@ -1,0 +1,40 @@
+.sentiment{
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+.exlamatory{
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0px 7px 1px;
+    margin-left: 5px;
+    background: rgb(151, 151, 151);
+}
+.anlyse{
+    display: flex;
+    align-items: center;
+}
+.percentage{
+    margin: 15px;
+    background: rgb(211, 255, 211);
+    color: rgb(0, 190, 0);
+    border-radius: 50%;
+    font-weight: 500;
+    height: 120px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chartsss{
+    height: 100%;
+    width: 100%;
+}
+.chartsss_div{
+    display:flex;
+    align-items:center;
+    width:70%;
+    margin: 14px 0;
+}

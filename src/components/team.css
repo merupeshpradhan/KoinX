@@ -1,0 +1,28 @@
+.team {
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+
+.cardz_2{
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    background:rgb(228, 228, 255);
+    border-radius: 5px;
+}
+.card2_content{
+    padding:0 20px;
+    margin: auto;
+    text-align: left;
+}
+.cardz2_imgs{
+    border-radius: 5px;
+    width: 50%;
+}
+@media (min-width: 768px) {
+    .cardz2_imgs{
+      width: 100%;
+    }
+  }
