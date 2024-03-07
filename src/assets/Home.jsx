@@ -2,6 +2,7 @@ import React from "react";
 import Left from "./left";
 import Right from "./right";
 import "./home.css";
+import Recomend from "./Recomend";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Recomend/>
     </div>
   );
 }

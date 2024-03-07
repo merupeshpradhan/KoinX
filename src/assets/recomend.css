@@ -1,0 +1,10 @@
+.recomend{
+    background: white;
+    padding: 3vw 3vw;
+    padding-top: 5vw;
+}
+.rec_card{
+    padding: 10px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 5px;
+}

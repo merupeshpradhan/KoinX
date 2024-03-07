@@ -13,14 +13,47 @@
 }
 .filter{
     color: rgb(0, 0, 0);
-    font-size: small;
+    font-size: 65%;
     font-weight: 500;
     cursor: pointer;
 }
 .performance {
     padding: 15px;
-    height: 60vh;
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 5px;
     margin-bottom: 35px;
+}
+.analyticsBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.analyticsBar_div p{
+    margin: 0;
+    font-size: 12px;
+}
+.bar{
+    width: 58%;
+    height: 3px;
+    background: linear-gradient(90deg, rgba(250,0,0,1), rgba(255,149,0,1) ,rgba(241,255,0,1), rgb(23, 230, 0) );
+    border-radius: 5px;
+}
+.exlamatory{
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0px 7px 1px;
+    margin-left: 5px;
+    background: rgb(151, 151, 151);
+}
+.lines{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(208, 208, 208);
+    padding: 10px 0;
+}
+.lines p{
+    margin: 0;
+    font-size: 12px;
 }

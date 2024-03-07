@@ -1,4 +1,5 @@
 import React from "react";
+import Distribut from "../images/Distribution.png"
 
 function Tokenomics() {
   return (
@@ -6,13 +7,14 @@ function Tokenomics() {
       className="Tokenomics"
       style={{
         padding: "15px",
-        background: "aliceblue",
+        background: "white",
         borderRadius: "5px",
         marginBottom: "35px",
       }}
     >
       <h5>Tokenomics</h5>
       <h6 className="pt-2">Initial Distribution</h6>
+      <img style={{width:"290px"}} src={Distribut}></img>
 
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque facilis

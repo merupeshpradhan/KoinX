@@ -1,10 +1,14 @@
 import React from 'react'
 import './right.css'
+import Card from '../components/Card'
+import TrendingCoins from '../components/TrendingCoins'
+
 
 function right() {
   return (
     <div className='rghtContainer'>
-      <h2>Right</h2>
+      <Card/>
+      <TrendingCoins/>
     </div>
   )
 }

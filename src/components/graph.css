@@ -1,8 +1,7 @@
 
 .charts {
-    padding: 15px;
-    height: 60vh;
-    background-color: aliceblue;
+    padding: 15px 20px;
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
     margin-bottom: 35px;
 }
@@ -16,7 +15,7 @@
 .charts-top {
   display: flex;
   align-items: center;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
 .charts-top img {
   width: 25px;
@@ -28,8 +27,51 @@
     padding: 3px;
     border-radius: 5px;
 }
+.amount{
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
 .amount p{
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: 600;
+}
+.Graph_Upper_bar,.Graph_Upper_subbar{
+    display: flex;
+    align-items: center;
+}
+.Graph_Upper_bar{
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.Graph_Upper_subbar{
+    gap: 15px;
+    color: rgb(164, 164, 164);
+    padding: 0 10px;
+}
+.Graph_Upper_bar p{
+    font-size: 12px;
+    font-weight: 700;
+}
+.Graph_Upper_subbar p{
+    font-weight: 500;
+}
+hr{
+    color: rgb(191, 191, 191);
+}
+
+
+.amount .percentage{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60px;
+    height: 28px;
+    background: rgb(79 255 79 / 53%);
+    border-radius: 3px;
+    color: rgb(0 117 0);
+    font-weight: 700;
+}
+.percentage img{
+    width: 20px;
+    height: 20px;
+    color: rgb(0, 156, 0);
 }
